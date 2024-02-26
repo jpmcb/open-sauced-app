@@ -233,6 +233,7 @@ interface DbWorkspaceRepositoryInsight {
   readonly short_code: string;
   readonly created_at: string;
   readonly updated_at: string;
+  readonly repos: DbUserInsightRepo[];
 }
 
 interface DbUserInsightRepo {
